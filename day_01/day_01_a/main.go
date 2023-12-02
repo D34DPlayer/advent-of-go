@@ -47,8 +47,8 @@ func main() {
 		line := scanner.Text()
 		value := calcLine(line)
 		sum += value
-		fmt.Println("Line:", line)   // Println will add back the final '\n'
-		fmt.Println("Value:", value) // Println will add back the final '\n'
+		// fmt.Println("Line:", line)
+		// fmt.Println("Value:", value)
 	}
 	check(scanner.Err())
 	fmt.Println("Sum:", sum)
