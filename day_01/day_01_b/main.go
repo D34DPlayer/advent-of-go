@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 )
 
 type numberText struct {
@@ -93,6 +94,7 @@ func calcLine(s string) int {
 }
 
 func main() {
+	start := time.Now()
 	f, err := os.Open("../input.txt")
 	check(err)
 
@@ -107,4 +109,5 @@ func main() {
 	}
 	check(scanner.Err())
 	fmt.Println("Sum:", sum)
+	fmt.Println("Time:", time.Since(start))
 }

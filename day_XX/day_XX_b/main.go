@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 )
 
 func check(e error) {
@@ -13,6 +14,7 @@ func check(e error) {
 }
 
 func main() {
+	start := time.Now()
 	f, err := os.Open("../input.txt")
 	check(err)
 
@@ -21,4 +23,5 @@ func main() {
 		line := scanner.Text()
 		fmt.Println("Line:", line)
 	}
+	fmt.Println("Time:", time.Since(start))
 }
