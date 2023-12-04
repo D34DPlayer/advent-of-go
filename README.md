@@ -35,5 +35,13 @@ Tasks:
       this doesn't happen in the input provided 🤷
     - For part B, I think a solution similar to part A's, with three lines instead of two would have worked, but tbh I
       was too lazy and wondered if the performance gain would be worth it.
+- Day 4
+  - [x] A
+  - [x] B
+  - Comments
+  - Parsing was supposed to be easy, and then I hit a huge wall? It seems my parsing would skip the last number if it was
+    one char wide. That's where parsing prerequisites come to the rescue and now the int parsing function assumes that
+    the first character has to be alphanumeric and won't check the "ok" for it.
+  - Part B scared me at first but then realized that the only information we need is how many matches each card had
 
-Total: 6/50
+Total: 8/50

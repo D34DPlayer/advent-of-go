@@ -166,9 +166,9 @@ func main() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		g := parseLine(line)
-		//fmt.Println(line)
-		//fmt.Println(g)
-		//fmt.Println(g.isSubset(expectedSet))
+		fmt.Println(line)
+		fmt.Println(g)
+		fmt.Println(g.isSubset(expectedSet))
 		if g.isSubset(expectedSet) {
 			sum += g.id
 		}
