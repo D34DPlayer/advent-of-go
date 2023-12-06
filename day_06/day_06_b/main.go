@@ -100,8 +100,8 @@ func main() {
 	d := p.parseIntWithSpaces()
 
 	s := solve(t, d)
-	fmt.Println("Time:", t)
-	fmt.Println("Distance:", d)
+	//fmt.Println("Time:", t)
+	//fmt.Println("Distance:", d)
 	fmt.Println("Solution:", s)
 
 	fmt.Println("Time:", time.Since(start))

@@ -117,9 +117,9 @@ func main() {
 		d := distances[i]
 		s := solve(t, d)
 		product *= s
-		fmt.Println("Time", i, ":", t)
-		fmt.Println("Distance", i, ":", d)
-		fmt.Println("Solution", i, ":", s)
+		//fmt.Println("Time", i, ":", t)
+		//fmt.Println("Distance", i, ":", d)
+		//fmt.Println("Solution", i, ":", s)
 	}
 	fmt.Println("Result:", product)
 	fmt.Println("Time:", time.Since(start))
