@@ -56,5 +56,16 @@ Tasks:
       - A recipe for that range has already been applied or the recipe doesn't apply => same range
       - The range fits entirely in the recipe => apply full range
       - There's a partial intersection => apply on a sub range, can result on up to 3 new ranges
+- Day 6
+  - [x] A
+  - [x] B
+  - Comments
+    - More of a math challenge than a programming one (if we ignore the parsing). Thx Wolfram alpha for the help to
+      visualize this problem.
+    - Distance eq: $(T-x)*x$ <=> $-x^2+Tx$
+    - Beat the record eq: $-x^2+Tx-R$
+    - Solutions: ${T±\sqrt{T^2-4R}}\over 2$
+    - $Rad = \sqrt{B^2-4AC}$
+    - $Amount = floor(T/2+Rad/2)-ceil(T/2-Rad/2)+1$
 
 Total: 10/50
