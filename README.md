@@ -66,6 +66,6 @@ Tasks:
     - Beat the record eq: $-x^2+Tx-R$
     - Solutions: ${T±\sqrt{T^2-4R}}\over 2$
     - $Rad = \sqrt{B^2-4AC}$
-    - $Amount = floor(T/2+Rad/2)-ceil(T/2-Rad/2)-1$
+    - $Amount = ceil(\frac{T+Rad}{2})-floor(\frac{T-Rad}{2})-1$
 
-Total: 10/50
+Total: 12/50
