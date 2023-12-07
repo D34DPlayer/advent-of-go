@@ -67,5 +67,12 @@ Tasks:
     - Solutions: ${T±\sqrt{T^2-4R}}\over 2$
     - $Rad = \sqrt{B^2-4AC}$
     - $Amount = ceil(\frac{T+Rad}{2})-floor(\frac{T-Rad}{2})-1$
+- Day 7
+  - [x] A
+  - [x] B
+  - Comments
+    - The difficulty is going up, isn't it. The hardest part was to calculate the hands. There's probably a smartest
+      algorithm but that's all I could come up with, and it works
+    - I'm not proud but for part B too much debugging went into a small issue. My code didn't count JJJJJ as five of a kind 
 
-Total: 12/50
+Total: 14/50
