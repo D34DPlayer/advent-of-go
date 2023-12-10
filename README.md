@@ -84,5 +84,12 @@ Tasks:
     - Luckily for us, the input isn't completely random and after inspecting a few of the starting node possible solutions
       it became clear that the distance between possible solutions was constant
     - This simplifies the problem by a lot because we just need to find the smallest number that's a multiple of those constants
+- Day 9
+  - [x] A
+  - [x] B
+  - Comments
+    - Easy challenge today, and I'm thankful because I started it at 4am
+    - The trick was to realize that once we know the allZeroes step we only actually care about the last/first number of
+      each derivation
 
 Total: 16/50
