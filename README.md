@@ -91,5 +91,21 @@ Tasks:
     - Easy challenge today, and I'm thankful because I started it at 4am
     - The trick was to realize that once we know the allZeroes step we only actually care about the last/first number of
       each derivation
+- Day 10
+  - [x] A
+  - [x] B
+  - Comments
+    - Things are getting complicated with this part B!
+    - My first attempt was to convert the map into a isWall boolean matrix, hoping I would just have to alternate what
+      is in and what is out but this wouldn't be enough information:
+    - ```
+      Exhibit A:
+      .FJ*F7*L7.
+      Exhibit B:
+      .LJ.LJ.LJ.
+      Same wall locations, different inner points
+      ```
+    - I knew the vertical connections were the clue but got a bit stuck, [this animation](https://www.reddit.com/r/adventofcode/comments/18eza5g/2023_day_10_animated_visualization/)
+      really set me back on the right track
 
-Total: 16/50
+Total: 20/50
