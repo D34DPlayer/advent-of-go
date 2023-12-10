@@ -74,5 +74,15 @@ Tasks:
     - The difficulty is going up, isn't it. The hardest part was to calculate the hands. There's probably a smartest
       algorithm but that's all I could come up with, and it works
     - I'm not proud but for part B too much debugging went into a small issue. My code didn't count JJJJJ as five of a kind 
+- Day 8
+  - [x] A
+  - [x] B
+  - Comments
+    - Part A was quite simple, a regular node traversal problem
+    - Part B had me stomped for quite a bit, because as far as I know the general problem requires bruteforce, but after
+      leaving the program run for 15mins I realized this wouldn't be possible
+    - Luckily for us, the input isn't completely random and after inspecting a few of the starting node possible solutions
+      it became clear that the distance between possible solutions was constant
+    - This simplifies the problem by a lot because we just need to find the smallest number that's a multiple of those constants
 
-Total: 14/50
+Total: 16/50
